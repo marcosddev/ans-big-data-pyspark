@@ -3,8 +3,8 @@
 ##  Visão Geral
 Este projeto analisa os Valores Comerciais de Mensalidades (VCM) praticados pelas operadoras de planos de saúde no Brasil entre 2004 e 2026. O objetivo principal é investigar **como a faixa etária influencia o valor das mensalidades ao longo do tempo**, validando os limites regulatórios impostos pela Lei nº 9.656/98.
 
-##  Impacto do Projeto (Metodologia XYZ)
-> **"Analisei a influência da faixa etária na precificação de planos de saúde brasileiros (X), processando de forma distribuída mais de 3,5 milhões de registros históricos cobrindo 22 anos de atuação da Agência Nacional de Saúde Suplementar (Y), construindo um pipeline completo de Big Data no Google Colab com PySpark contemplando ETL, Análise Exploratória (Spark SQL) e Machine Learning (Z)."**
+##  Impacto do Projeto 
+> **"Analisei a influência da faixa etária na precificação de planos de saúde brasileiros, processando de forma distribuída mais de 3,5 milhões de registros históricos cobrindo 22 anos de atuação da Agência Nacional de Saúde Suplementar, construindo um pipeline completo de Big Data no Google Colab com PySpark contemplando ETL, Análise Exploratória (Spark SQL) e Machine Learning."**
 
 ##  Os Dados
 - **Fonte:** Dados Abertos Governamentais da ANS (Agência Nacional de Saúde Suplementar).
@@ -30,7 +30,7 @@ O projeto segue as melhores práticas de Engenharia de Dados em um pipeline de 4
    - **Apriori:** Geração de regras de associação para descobrir padrões não evidentes (Lift e Confidence) no mercado suplementar.
 
 ##  Principais Insights
-* *(Adicione aqui seu principal achado do projeto, ex: "Constatou-se que planos para a faixa de 59+ anos chegam consistentemente ao limite regulatório de 6x o valor de faixas jovens nos últimos 5 anos.")*
+* *Curva de Precificação e Limite Legal:* Comprovou-se quantitativamente que a precificação segue rigorosamente o risco assistencial. A faixa de "59 anos ou mais" apresenta mensalidade média muito próxima de 6 vezes o valor da faixa "0 a 18 anos", demonstrando que as operadoras utilizam o limite máximo de variação permitido pela Lei nº 9.656/98 para repassar custos.
 * *(Adicione um insight dos modelos, ex: "O algoritmo de clusterização revelou um grupo isolado de operadoras premium, focadas em abrangência nacional com tickets médios descolados do mercado.")*
 
 ##  Como Executar
