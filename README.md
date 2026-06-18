@@ -30,8 +30,10 @@ O projeto segue as melhores práticas de Engenharia de Dados em um pipeline de 4
    - **Apriori:** Geração de regras de associação para descobrir padrões não evidentes (Lift e Confidence) no mercado suplementar.
 
 ##  Principais Insights
-* *Curva de Precificação e Limite Legal:* Comprovou-se quantitativamente que a precificação segue rigorosamente o risco assistencial. A faixa de "59 anos ou mais" apresenta mensalidade média muito próxima de 6 vezes o valor da faixa "0 a 18 anos", demonstrando que as operadoras utilizam o limite máximo de variação permitido pela Lei nº 9.656/98 para repassar custos.
-* *(Adicione um insight dos modelos, ex: "O algoritmo de clusterização revelou um grupo isolado de operadoras premium, focadas em abrangência nacional com tickets médios descolados do mercado.")*
+* **Curva de Precificação e Limite Legal:** Comprovou-se quantitativamente que a precificação segue rigorosamente o risco assistencial. A faixa de "59 anos ou mais" apresenta mensalidade média muito próxima de 6 vezes o valor da faixa "0 a 18 anos", demonstrando que as operadoras utilizam o limite máximo de variação permitido pela Lei nº 9.656/98 para repassar custos.
+* **Evolução Temporal e Inflação Médica:** A série histórica de 22 anos (2004–2026) evidencia um crescimento acelerado dos Valores Comerciais (VCM), com quebras de tendência (aumentos mais acentuados) nos períodos pós-pandemia, tracionados pelo aumento exponencial da despesa assistencial.
+* **Agrupamentos de Mercado (K-Means):** A clusterização não-supervisionada dividiu o mercado em perfis claros: o cluster de "Acesso Popular" (alto volume, custo contido) e o cluster "Premium" (mensalidades atípicas voltadas à alta renda, com despesas assistenciais descoladas da média do mercado).
+* *Padrões Ocultos (Apriori):** O algoritmo de regras de associação revelou uma fortíssima relação estatística (alto lift e confidence) entre mensalidades menores e planos de abrangência "Regionalizada", validando a estratégia das operadoras de restringir a rede de atendimento para baratear o plano.
 
 ##  Como Executar
 1. Faça um clone deste repositório:
