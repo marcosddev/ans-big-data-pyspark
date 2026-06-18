@@ -1,0 +1,12 @@
+# Arquivos de dados pesados não sobem para o GitHub
+*.zip
+*.csv
+*.xlsx
+*.pdf
+
+# Pastas de saída do PySpark
+output/
+
+# Logs e caches do Python/Jupyter
+__pycache__/
+.ipynb_checkpoints/
