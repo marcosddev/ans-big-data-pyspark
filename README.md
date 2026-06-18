@@ -44,6 +44,19 @@ O projeto segue as melhores práticas de Engenharia de Dados em um pipeline de 4
 3. Adicione o arquivo de dados original e o dicionário de dados na mesma estrutura do seu Google Drive.
 4. Execute as células em sequência.
 
+## 📚 Fontes e Referências
+1. **Apache Spark:** [Documentação Oficial](https://spark.apache.org/docs/latest/)
+2. **PySpark:** [API de Referência](https://spark.apache.org/docs/latest/api/python/)
+3. **Scikit-Learn:** [Modelos de Machine Learning](https://scikit-learn.org/stable/documentation.html)
+4. **Mlxtend:** [Mineração de Regras de Associação](http://rasbt.github.io/mlxtend/)
+5. **Pandas:** [Estruturas de Dados e Análise](https://pandas.pydata.org/docs/)
+6. **NumPy:** [Computação Científica](https://numpy.org/doc/stable/)
+7. **Matplotlib:** [Visualização de Dados](https://matplotlib.org/stable/users/index.html)
+8. **Seaborn:** [Visualização Estatística de Dados](https://seaborn.pydata.org/)
+9. **WordCloud:** [Geração de Nuvens de Palavras](https://amueller.github.io/word_cloud/)
+10. **ANS (Agência Nacional de Saúde Suplementar):** Dicionário de Dados da ANS (`dicionario_valor_comercial.pdf`)
+11. **Legislação Brasileira:** Lei nº 9.656 de 3 de junho de 1998 (Regulação de Planos de Saúde e reajuste por faixa etária)
+
 ##  Autor
 Feito por **Marcos Davi**
 - [LinkedIn](https://linkedin.com/in/marcosdavidev/)
